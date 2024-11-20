@@ -1,0 +1,649 @@
+Control Identifiers:
+
+Dialog - 'v2rayN - V7.1.0 - X64 - 2024/11/14 - 以管理员身份运行'    (L976, T89, R1876, B789)
+['v2rayN - V7.1.0 - X64 - 2024/11/14 - 以管理员身份运行Dialog', 'Dialog', 'v2rayN - V7.1.0 - X64 - 2024/11/14 - 以管理员身份运行']
+child_window(title="v2rayN - V7.1.0 - X64 - 2024/11/14 - 以管理员身份运行", control_type="Window")
+   | 
+   | TitleBar - ''    (L1000, T92, R1868, B120)
+   | ['TitleBar']
+   |    | 
+   |    | Menu - '系统'    (L984, T97, R1006, B119)
+   |    | ['系统', 'Menu', '系统Menu', '系统0', '系统1', 'Menu0', 'Menu1']
+   |    | child_window(title="系统", auto_id="MenuBar", control_type="MenuBar")
+   |    |    | 
+   |    |    | MenuItem - '系统'    (L984, T97, R1006, B119)
+   |    |    | ['MenuItem', '系统MenuItem', '系统2', 'MenuItem0', 'MenuItem1']
+   |    |    | child_window(title="系统", control_type="MenuItem")
+   |    | 
+   |    | Button - '最小化'    (L1729, T90, R1776, B120)
+   |    | ['最小化Button', '最小化', 'Button', 'Button0', 'Button1']
+   |    | child_window(title="最小化", control_type="Button")
+   |    | 
+   |    | Button - '最大化'    (L1776, T90, R1822, B120)
+   |    | ['最大化Button', '最大化', 'Button2']
+   |    | child_window(title="最大化", control_type="Button")
+   |    | 
+   |    | Button - '关闭'    (L1822, T90, R1869, B120)
+   |    | ['Button3', '关闭Button', '关闭', '关闭0', '关闭1', '关闭Button0', '关闭Button1']
+   |    | child_window(title="关闭", control_type="Button")
+   | 
+   | Toolbar - ''    (L984, T120, R1763, B172)
+   | ['Toolbar', '服务器Toolbar']
+   |    | 
+   |    | Thumb - ''    (L984, T120, R994, B171)
+   |    | ['Thumb', 'Thumb0', 'Thumb1']
+   |    | child_window(auto_id="ToolBarThumb", control_type="Thumb")
+   |    | 
+   |    | Menu - ''    (L998, T122, R1074, B170)
+   |    | ['Menu2', '服务器Menu', '服务器Menu0', '服务器Menu1']
+   |    |    | 
+   |    |    | MenuItem - ''    (L998, T122, R1074, B170)
+   |    |    | ['MenuItem2', '服务器MenuItem', '服务器MenuItem0', '服务器MenuItem1']
+   |    |    |    | 
+   |    |    |    | Static - '服务器'    (L1030, T138, R1066, B155)
+   |    |    |    | ['服务器', 'Static', '服务器Static', 'Static0', 'Static1']
+   |    |    |    | child_window(title="服务器", control_type="Text")
+   |    | 
+   |    | Separator - ''    (L1080, T132, R1081, B160)
+   |    | ['服务器Separator', 'Separator', 'Separator0', 'Separator1']
+   |    | 
+   |    | Menu - ''    (L1087, T122, R1175, B170)
+   |    | ['Menu3', '服务器Menu2']
+   |    |    | 
+   |    |    | MenuItem - ''    (L1087, T122, R1175, B170)
+   |    |    | ['MenuItem3', '服务器MenuItem2']
+   |    |    |    | 
+   |    |    |    | Static - '订阅分组'    (L1119, T138, R1167, B155)
+   |    |    |    | ['订阅分组', 'Static2', '订阅分组Static', '订阅分组0', '订阅分组1', '订阅分组Static0', '订阅分组Static1']
+   |    |    |    | child_window(title="订阅分组", control_type="Text")
+   |    | 
+   |    | Separator - ''    (L1181, T132, R1182, B160)
+   |    | ['订阅分组Separator', 'Separator2']
+   |    | 
+   |    | Menu - ''    (L1188, T122, R1252, B170)
+   |    | ['订阅分组Menu', 'Menu4']
+   |    |    | 
+   |    |    | MenuItem - ''    (L1188, T122, R1252, B170)
+   |    |    | ['MenuItem4', '订阅分组MenuItem']
+   |    |    |    | 
+   |    |    |    | Static - '设置'    (L1220, T138, R1244, B155)
+   |    |    |    | ['设置Static', 'Static3', '设置']
+   |    |    |    | child_window(title="设置", control_type="Text")
+   |    | 
+   |    | Separator - ''    (L1258, T132, R1259, B160)
+   |    | ['设置Separator', 'Separator3']
+   |    | 
+   |    | Menu - ''    (L1265, T122, R1353, B170)
+   |    | ['设置Menu', 'Menu5']
+   |    |    | 
+   |    |    | MenuItem - ''    (L1265, T122, R1353, B170)
+   |    |    | ['MenuItem5', '设置MenuItem']
+   |    |    | child_window(auto_id="menuReload", control_type="MenuItem")
+   |    |    |    | 
+   |    |    |    | Static - '重启服务'    (L1297, T138, R1345, B155)
+   |    |    |    | ['重启服务Static', 'Static4', '重启服务']
+   |    |    |    | child_window(title="重启服务", control_type="Text")
+   |    | 
+   |    | Separator - ''    (L1359, T132, R1360, B160)
+   |    | ['重启服务Separator', 'Separator4']
+   |    | 
+   |    | Menu - ''    (L1366, T122, R1454, B170)
+   |    | ['Menu6', '重启服务Menu']
+   |    |    | 
+   |    |    | MenuItem - ''    (L1366, T122, R1454, B170)
+   |    |    | ['MenuItem6', '重启服务MenuItem']
+   |    |    | child_window(auto_id="menuCheckUpdate", control_type="MenuItem")
+   |    |    |    | 
+   |    |    |    | Static - '检查更新'    (L1398, T138, R1446, B155)
+   |    |    |    | ['检查更新Static', 'Static5', '检查更新']
+   |    |    |    | child_window(title="检查更新", control_type="Text")
+   |    | 
+   |    | Separator - ''    (L1460, T132, R1461, B160)
+   |    | ['检查更新Separator', 'Separator5']
+   |    | 
+   |    | Menu - ''    (L1467, T122, R1531, B170)
+   |    | ['Menu7', '检查更新Menu']
+   |    |    | 
+   |    |    | MenuItem - ''    (L1467, T122, R1531, B170)
+   |    |    | ['MenuItem7', '检查更新MenuItem']
+   |    |    | child_window(auto_id="menuHelp", control_type="MenuItem")
+   |    |    |    | 
+   |    |    |    | Static - '帮助'    (L1499, T138, R1523, B155)
+   |    |    |    | ['帮助Static', '帮助', 'Static6']
+   |    |    |    | child_window(title="帮助", control_type="Text")
+   |    | 
+   |    | Separator - ''    (L1537, T132, R1538, B160)
+   |    | ['帮助Separator', 'Separator6']
+   |    | 
+   |    | Menu - ''    (L1544, T122, R1608, B170)
+   |    | ['帮助Menu', 'Menu8']
+   |    |    | 
+   |    |    | MenuItem - ''    (L1544, T122, R1608, B170)
+   |    |    | ['MenuItem8', '帮助MenuItem']
+   |    |    | child_window(auto_id="menuPromotion", control_type="MenuItem")
+   |    |    |    | 
+   |    |    |    | Static - '推广'    (L1576, T138, R1600, B155)
+   |    |    |    | ['Static7', '推广Static', '推广']
+   |    |    |    | child_window(title="推广", control_type="Text")
+   |    | 
+   |    | Separator - ''    (L1614, T132, R1615, B160)
+   |    | ['推广Separator', 'Separator7']
+   |    | 
+   |    | Menu - ''    (L1621, T122, R1685, B170)
+   |    | ['Menu9', '推广Menu']
+   |    |    | 
+   |    |    | MenuItem - ''    (L1621, T122, R1685, B170)
+   |    |    | ['MenuItem9', '推广MenuItem']
+   |    |    | child_window(auto_id="menuClose", control_type="MenuItem")
+   |    |    |    | 
+   |    |    |    | Static - '关闭'    (L1653, T138, R1677, B155)
+   |    |    |    | ['关闭Static', 'Static8', '关闭2', '关闭Static0', '关闭Static1']
+   |    |    |    | child_window(title="关闭", control_type="Text")
+   |    | 
+   |    | Button - ''    (L1685, T134, R1717, B158)
+   |    | ['关闭Button2', 'Button4']
+   |    | child_window(auto_id="PART_Toggle", control_type="Button")
+   | 
+   | Custom - ''    (L984, T731, R1868, B781)
+   | ['本地:[socks:10808] | [http:10809]Custom', 'Custom', 'Custom0', 'Custom1']
+   |    | 
+   |    | Static - ''    (L1852, T735, R1860, B752)
+   |    | ['[VMess] 美国 V2CROSS.COM(216***50:443)Static', 'Static9', '[VMess] 美国 V2CROSS.COM(216***50:443)Static0', '[VMess] 美国 V2CROSS.COM(216***50:443)Static1']
+   |    | child_window(auto_id="txtSpeedProxyDisplay", control_type="Text")
+   |    | 
+   |    | Static - ''    (L1852, T760, R1860, B777)
+   |    | ['当前服务的真连接延迟: 154 msStatic', 'Static10', '当前服务的真连接延迟: 154 msStatic0', '当前服务的真连接延迟: 154 msStatic1']
+   |    | child_window(auto_id="txtSpeedDirectDisplay", control_type="Text")
+   |    | 
+   |    | Static - '本地:[socks:10808] | [http:10809]'    (L992, T735, R1232, B752)
+   |    | ['Static11', '本地:[socks:10808] | [http:10809]', '本地:[socks:10808] | [http:10809]Static']
+   |    | child_window(title="本地:[socks:10808] | [http:10809]", auto_id="txtInboundDisplay", control_type="Text")
+   |    | 
+   |    | Static - '局域网:None'    (L992, T760, R1232, B777)
+   |    | ['局域网:NoneStatic', 'Static12', '局域网:None']
+   |    | child_window(title="局域网:None", auto_id="txtInboundLanDisplay", control_type="Text")
+   |    | 
+   |    | Static - '启用Tun'    (L1256, T748, R1301, B765)
+   |    | ['Static13', '启用Tun', '启用TunStatic']
+   |    | child_window(title="启用Tun", control_type="Text")
+   |    | 
+   |    | Button - ''    (L1313, T747, R1347, B765)
+   |    | ['启用TunButton', 'Button5']
+   |    | child_window(auto_id="togEnableTun", control_type="Button")
+   |    | 
+   |    | ComboBox - ''    (L1375, T739, R1535, B773)
+   |    | ['启用TunComboBox', 'ComboBox', 'ComboBox自动配置系统代理', 'ComboBox不改变系统代理', 'ComboBoxPac模式', 'ComboBox0', 'ComboBox1']
+   |    | child_window(auto_id="cmbSystemProxy", control_type="ComboBox")
+   |    | 
+   |    | ComboBox - ''    (L1551, T739, R1711, B773)
+   |    | ['ComboBox2', 'ComboBoxServiceLib.Models.RoutingItem', '关闭ComboBox']
+   |    | child_window(auto_id="cmbRoutings2", control_type="ComboBox")
+   |    | 
+   |    | Static - '[VMess] 美国 V2CROSS.COM(216***50:443)'    (L1735, T735, R1984, B752)
+   |    | ['[VMess] 美国 V2CROSS.COM(216***50:443)Static2', 'Static14', '[VMess] 美国 V2CROSS.COM(216***50:443)']
+   |    | child_window(title="[VMess] 美国 V2CROSS.COM(216***50:443)", auto_id="txtRunningServerDisplay", control_type="Text")
+   |    | 
+   |    | Static - '当前服务的真连接延迟: 154 ms'    (L1735, T760, R1904, B777)
+   |    | ['当前服务的真连接延迟: 154 msStatic2', 'Static15', '当前服务的真连接延迟: 154 ms']
+   |    | child_window(title="当前服务的真连接延迟: 154 ms", auto_id="txtRunningInfoDisplay", control_type="Text")
+   | 
+   | Custom - ''    (L984, T172, R1868, B447)
+   | ['Custom2', '所有Custom']
+   |    | 
+   |    | ListBox - ''    (L988, T176, R1038, B216)
+   |    | ['所有ListBox', 'ListBox']
+   |    | child_window(auto_id="lstGroup", control_type="List")
+   |    |    | 
+   |    |    | ListItem - 'ServiceLib.Models.SubItem'    (L986, T176, R1040, B216)
+   |    |    | ['ServiceLib.Models.SubItem', 'ServiceLib.Models.SubItemListItem', 'ListItem', 'ServiceLib.Models.SubItem0', 'ServiceLib.Models.SubItem1']
+   |    |    | child_window(title="ServiceLib.Models.SubItem", control_type="ListItem")
+   |    |    |    | 
+   |    |    |    | RadioButton - 'ServiceLib.Models.SubItem'    (L990, T180, R1036, B212)
+   |    |    |    | ['ServiceLib.Models.SubItemRadioButton', 'RadioButton', 'ServiceLib.Models.SubItem2']
+   |    |    |    | child_window(title="ServiceLib.Models.SubItem", control_type="RadioButton")
+   |    |    |    |    | 
+   |    |    |    |    | Static - '所有'    (L1001, T188, R1025, B205)
+   |    |    |    |    | ['所有', 'Static16', '所有Static']
+   |    |    |    |    | child_window(title="所有", control_type="Text")
+   |    | 
+   |    | Button - ''    (L1042, T181, R1072, B211)
+   |    | ['所有Button', 'Button6']
+   |    | child_window(auto_id="btnEditSub", control_type="Button")
+   |    | 
+   |    | Button - ''    (L1080, T181, R1110, B211)
+   |    | ['服务器Button', 'Button7']
+   |    | child_window(auto_id="btnAddSub", control_type="Button")
+   |    | 
+   |    | Button - ''    (L1122, T181, R1152, B211)
+   |    | ['订阅分组Button', 'Button8']
+   |    | child_window(auto_id="btnAutofitColumnWidth", control_type="Button")
+   |    | 
+   |    | Edit - ''    (L1164, T176, R1364, B216)
+   |    | ['服务器过滤器，按回车执行Edit', 'Edit', 'Edit0', 'Edit1']
+   |    | child_window(auto_id="txtServerFilter", control_type="Edit")
+   |    |    | 
+   |    |    | Static - '服务器过滤器，按回车执行'    (L1164, T187, R1364, B204)
+   |    |    | ['服务器过滤器，按回车执行Static', 'Static17', '服务器过滤器，按回车执行']
+   |    |    | child_window(title="服务器过滤器，按回车执行", control_type="Text")
+   |    | 
+   |    | ListView - ''    (L984, T220, R1868, B447)
+   |    | ['ListView', '所有ListView', '服务器过滤器，按回车执行ListView']
+   |    | child_window(auto_id="lstProfiles", control_type="DataGrid")
+   |    |    | 
+   |    |    | Header - ''    (L1025, T221, R1867, B259)
+   |    |    | ['所有Header', 'Header']
+   |    |    | child_window(auto_id="PART_ColumnHeadersPresenter", control_type="Header")
+   |    |    |    | 
+   |    |    |    | HeaderItem - '类型'    (L1025, T221, R1109, B259)
+   |    |    |    | ['HeaderItem', '类型HeaderItem', '类型', '类型0', '类型1', 'HeaderItem0', 'HeaderItem1']
+   |    |    |    | child_window(title="类型", control_type="HeaderItem")
+   |    |    |    |    | 
+   |    |    |    |    | Static - '类型'    (L1041, T231, R1065, B248)
+   |    |    |    |    | ['Static18', '类型Static', '类型2']
+   |    |    |    |    | child_window(title="类型", control_type="Text")
+   |    |    |    |    | 
+   |    |    |    |    | Thumb - ''    (L1101, T221, R1109, B259)
+   |    |    |    |    | ['类型Thumb', 'Thumb2', '类型Thumb0', '类型Thumb1']
+   |    |    |    |    | child_window(auto_id="PART_RightHeaderGripper", control_type="Thumb")
+   |    |    |    | 
+   |    |    |    | HeaderItem - '别名'    (L1109, T221, R1291, B259)
+   |    |    |    | ['HeaderItem2', '别名HeaderItem', '别名', '别名0', '别名1']
+   |    |    |    | child_window(title="别名", control_type="HeaderItem")
+   |    |    |    |    | 
+   |    |    |    |    | Static - '别名'    (L1125, T231, R1149, B248)
+   |    |    |    |    | ['别名Static', 'Static19', '别名2']
+   |    |    |    |    | child_window(title="别名", control_type="Text")
+   |    |    |    |    | 
+   |    |    |    |    | Thumb - ''    (L1109, T221, R1117, B259)
+   |    |    |    |    | ['类型Thumb2', 'Thumb3']
+   |    |    |    |    | child_window(auto_id="PART_LeftHeaderGripper", control_type="Thumb")
+   |    |    |    |    | 
+   |    |    |    |    | Thumb - ''    (L1283, T221, R1291, B259)
+   |    |    |    |    | ['服务器过滤器，按回车执行Thumb', 'Thumb4']
+   |    |    |    |    | child_window(auto_id="PART_RightHeaderGripper", control_type="Thumb")
+   |    |    |    | 
+   |    |    |    | HeaderItem - '地址'    (L1291, T221, R1442, B259)
+   |    |    |    | ['HeaderItem3', '地址', '地址HeaderItem', '地址0', '地址1']
+   |    |    |    | child_window(title="地址", control_type="HeaderItem")
+   |    |    |    |    | 
+   |    |    |    |    | Static - '地址'    (L1307, T231, R1331, B248)
+   |    |    |    |    | ['地址2', 'Static20', '地址Static']
+   |    |    |    |    | child_window(title="地址", control_type="Text")
+   |    |    |    |    | 
+   |    |    |    |    | Thumb - ''    (L1291, T221, R1299, B259)
+   |    |    |    |    | ['重启服务Thumb', 'Thumb5']
+   |    |    |    |    | child_window(auto_id="PART_LeftHeaderGripper", control_type="Thumb")
+   |    |    |    |    | 
+   |    |    |    |    | Thumb - ''    (L1434, T221, R1442, B259)
+   |    |    |    |    | ['检查更新Thumb', 'Thumb6', '检查更新Thumb0', '检查更新Thumb1']
+   |    |    |    |    | child_window(auto_id="PART_RightHeaderGripper", control_type="Thumb")
+   |    |    |    | 
+   |    |    |    | HeaderItem - '端口'    (L1442, T221, R1499, B259)
+   |    |    |    | ['HeaderItem4', '端口', '端口HeaderItem', '端口0', '端口1']
+   |    |    |    | child_window(title="端口", control_type="HeaderItem")
+   |    |    |    |    | 
+   |    |    |    |    | Static - '端口'    (L1458, T231, R1482, B248)
+   |    |    |    |    | ['端口Static', '端口2', 'Static21']
+   |    |    |    |    | child_window(title="端口", control_type="Text")
+   |    |    |    |    | 
+   |    |    |    |    | Thumb - ''    (L1442, T221, R1450, B259)
+   |    |    |    |    | ['检查更新Thumb2', 'Thumb7']
+   |    |    |    |    | child_window(auto_id="PART_LeftHeaderGripper", control_type="Thumb")
+   |    |    |    |    | 
+   |    |    |    |    | Thumb - ''    (L1491, T221, R1499, B259)
+   |    |    |    |    | ['Thumb8', '端口Thumb', '端口Thumb0', '端口Thumb1']
+   |    |    |    |    | child_window(auto_id="PART_RightHeaderGripper", control_type="Thumb")
+   |    |    |    | 
+   |    |    |    | HeaderItem - '传输协议'    (L1499, T221, R1580, B259)
+   |    |    |    | ['HeaderItem5', '传输协议HeaderItem', '传输协议', '传输协议0', '传输协议1']
+   |    |    |    | child_window(title="传输协议", control_type="HeaderItem")
+   |    |    |    |    | 
+   |    |    |    |    | Static - '传输协议'    (L1515, T231, R1563, B248)
+   |    |    |    |    | ['传输协议Static', 'Static22', '传输协议2']
+   |    |    |    |    | child_window(title="传输协议", control_type="Text")
+   |    |    |    |    | 
+   |    |    |    |    | Thumb - ''    (L1499, T221, R1507, B259)
+   |    |    |    |    | ['Thumb9', '端口Thumb2']
+   |    |    |    |    | child_window(auto_id="PART_LeftHeaderGripper", control_type="Thumb")
+   |    |    |    |    | 
+   |    |    |    |    | Thumb - ''    (L1572, T221, R1580, B259)
+   |    |    |    |    | ['传输协议Thumb', 'Thumb10', '传输协议Thumb0', '传输协议Thumb1']
+   |    |    |    |    | child_window(auto_id="PART_RightHeaderGripper", control_type="Thumb")
+   |    |    |    | 
+   |    |    |    | HeaderItem - 'TLS'    (L1580, T221, R1633, B259)
+   |    |    |    | ['HeaderItem6', 'TLSHeaderItem', 'TLS', 'TLS0', 'TLS1']
+   |    |    |    | child_window(title="TLS", control_type="HeaderItem")
+   |    |    |    |    | 
+   |    |    |    |    | Static - 'TLS'    (L1596, T231, R1616, B248)
+   |    |    |    |    | ['Static23', 'TLSStatic', 'TLS2']
+   |    |    |    |    | child_window(title="TLS", control_type="Text")
+   |    |    |    |    | 
+   |    |    |    |    | Thumb - ''    (L1580, T221, R1588, B259)
+   |    |    |    |    | ['传输协议Thumb2', 'Thumb11']
+   |    |    |    |    | child_window(auto_id="PART_LeftHeaderGripper", control_type="Thumb")
+   |    |    |    |    | 
+   |    |    |    |    | Thumb - ''    (L1625, T221, R1633, B259)
+   |    |    |    |    | ['Thumb12', 'TLSThumb', 'TLSThumb0', 'TLSThumb1']
+   |    |    |    |    | child_window(auto_id="PART_RightHeaderGripper", control_type="Thumb")
+   |    |    |    | 
+   |    |    |    | HeaderItem - '订阅分组'    (L1633, T221, R1714, B259)
+   |    |    |    | ['HeaderItem7', '订阅分组2', '订阅分组HeaderItem']
+   |    |    |    | child_window(title="订阅分组", control_type="HeaderItem")
+   |    |    |    |    | 
+   |    |    |    |    | Static - '订阅分组'    (L1649, T231, R1697, B248)
+   |    |    |    |    | ['订阅分组3', 'Static24', '订阅分组Static2']
+   |    |    |    |    | child_window(title="订阅分组", control_type="Text")
+   |    |    |    |    | 
+   |    |    |    |    | Thumb - ''    (L1633, T221, R1641, B259)
+   |    |    |    |    | ['Thumb13', 'TLSThumb2']
+   |    |    |    |    | child_window(auto_id="PART_LeftHeaderGripper", control_type="Thumb")
+   |    |    |    |    | 
+   |    |    |    |    | Thumb - ''    (L1706, T221, R1714, B259)
+   |    |    |    |    | ['订阅分组Thumb', 'Thumb14', '订阅分组Thumb0', '订阅分组Thumb1']
+   |    |    |    |    | child_window(auto_id="PART_RightHeaderGripper", control_type="Thumb")
+   |    |    |    | 
+   |    |    |    | HeaderItem - '延迟(ms)'    (L1714, T221, R1796, B259)
+   |    |    |    | ['HeaderItem8', '延迟(ms)HeaderItem', '延迟(ms)', '延迟(ms)0', '延迟(ms)1']
+   |    |    |    | child_window(title="延迟(ms)", control_type="HeaderItem")
+   |    |    |    |    | 
+   |    |    |    |    | Static - '延迟(ms)'    (L1730, T231, R1779, B248)
+   |    |    |    |    | ['延迟(ms)2', 'Static25', '延迟(ms)Static']
+   |    |    |    |    | child_window(title="延迟(ms)", control_type="Text")
+   |    |    |    |    | 
+   |    |    |    |    | Thumb - ''    (L1714, T221, R1722, B259)
+   |    |    |    |    | ['订阅分组Thumb2', 'Thumb15']
+   |    |    |    |    | child_window(auto_id="PART_LeftHeaderGripper", control_type="Thumb")
+   |    |    |    |    | 
+   |    |    |    |    | Thumb - ''    (L1788, T221, R1796, B259)
+   |    |    |    |    | ['Thumb16', '延迟(ms)Thumb', '延迟(ms)Thumb0', '延迟(ms)Thumb1']
+   |    |    |    |    | child_window(auto_id="PART_RightHeaderGripper", control_type="Thumb")
+   |    |    |    | 
+   |    |    |    | HeaderItem - '速度(M/s)'    (L1796, T221, R1884, B259)
+   |    |    |    | ['速度(M/s)HeaderItem', 'HeaderItem9', '速度(M/s)', '速度(M/s)0', '速度(M/s)1']
+   |    |    |    | child_window(title="速度(M/s)", control_type="HeaderItem")
+   |    |    |    |    | 
+   |    |    |    |    | Static - '速度(M/s)'    (L1812, T231, R1867, B248)
+   |    |    |    |    | ['速度(M/s)Static', 'Static26', '速度(M/s)2']
+   |    |    |    |    | child_window(title="速度(M/s)", control_type="Text")
+   |    |    |    |    | 
+   |    |    |    |    | Thumb - ''    (L1796, T221, R1804, B259)
+   |    |    |    |    | ['Thumb17', '延迟(ms)Thumb2']
+   |    |    |    |    | child_window(auto_id="PART_LeftHeaderGripper", control_type="Thumb")
+   |    |    |    |    | 
+   |    |    |    |    | Thumb - ''    (L1876, T221, R1884, B259)
+   |    |    |    |    | ['Thumb18', '速度(M/s)Thumb', '速度(M/s)Thumb0', '速度(M/s)Thumb1']
+   |    |    |    |    | child_window(auto_id="PART_RightHeaderGripper", control_type="Thumb")
+   |    |    |    | 
+   |    |    |    | HeaderItem - '今日上传'    (L1884, T221, R1965, B259)
+   |    |    |    | ['HeaderItem10', '今日上传HeaderItem', '今日上传', '今日上传0', '今日上传1']
+   |    |    |    | child_window(title="今日上传", control_type="HeaderItem")
+   |    |    |    |    | 
+   |    |    |    |    | Static - '今日上传'    (L1900, T231, R1948, B248)
+   |    |    |    |    | ['Static27', '今日上传2', '今日上传Static']
+   |    |    |    |    | child_window(title="今日上传", control_type="Text")
+   |    |    |    |    | 
+   |    |    |    |    | Thumb - ''    (L1884, T221, R1892, B259)
+   |    |    |    |    | ['Thumb19', '速度(M/s)Thumb2']
+   |    |    |    |    | child_window(auto_id="PART_LeftHeaderGripper", control_type="Thumb")
+   |    |    |    |    | 
+   |    |    |    |    | Thumb - ''    (L1957, T221, R1965, B259)
+   |    |    |    |    | ['今日上传Thumb', 'Thumb20', '今日上传Thumb0', '今日上传Thumb1']
+   |    |    |    |    | child_window(auto_id="PART_RightHeaderGripper", control_type="Thumb")
+   |    |    |    | 
+   |    |    |    | HeaderItem - '今日下载'    (L1965, T221, R2046, B259)
+   |    |    |    | ['HeaderItem11', '今日下载', '今日下载HeaderItem', '今日下载0', '今日下载1']
+   |    |    |    | child_window(title="今日下载", control_type="HeaderItem")
+   |    |    |    |    | 
+   |    |    |    |    | Static - '今日下载'    (L1981, T231, R2029, B248)
+   |    |    |    |    | ['今日下载Static', 'Static28', '今日下载2', '今日下载Static0', '今日下载Static1']
+   |    |    |    |    | child_window(title="今日下载", control_type="Text")
+   |    |    |    |    | 
+   |    |    |    |    | Thumb - ''    (L1965, T221, R1973, B259)
+   |    |    |    |    | ['今日上传Thumb2', 'Thumb21']
+   |    |    |    |    | child_window(auto_id="PART_LeftHeaderGripper", control_type="Thumb")
+   |    |    |    |    | 
+   |    |    |    |    | Thumb - ''    (L2038, T221, R2046, B259)
+   |    |    |    |    | ['今日下载Thumb', 'Thumb22', '今日下载Thumb0', '今日下载Thumb1']
+   |    |    |    |    | child_window(auto_id="PART_RightHeaderGripper", control_type="Thumb")
+   |    |    |    | 
+   |    |    |    | HeaderItem - '总上传'    (L2046, T221, R2115, B259)
+   |    |    |    | ['总上传', 'HeaderItem12', '总上传HeaderItem', '总上传0', '总上传1']
+   |    |    |    | child_window(title="总上传", control_type="HeaderItem")
+   |    |    |    |    | 
+   |    |    |    |    | Static - '总上传'    (L2062, T231, R2098, B248)
+   |    |    |    |    | ['总上传2', 'Static29', '总上传Static', '总上传Static0', '总上传Static1']
+   |    |    |    |    | child_window(title="总上传", control_type="Text")
+   |    |    |    |    | 
+   |    |    |    |    | Thumb - ''    (L2046, T221, R2054, B259)
+   |    |    |    |    | ['今日下载Thumb2', 'Thumb23']
+   |    |    |    |    | child_window(auto_id="PART_LeftHeaderGripper", control_type="Thumb")
+   |    |    |    |    | 
+   |    |    |    |    | Thumb - ''    (L2107, T221, R2115, B259)
+   |    |    |    |    | ['Thumb24', '总上传Thumb', '总上传Thumb0', '总上传Thumb1']
+   |    |    |    |    | child_window(auto_id="PART_RightHeaderGripper", control_type="Thumb")
+   |    |    |    | 
+   |    |    |    | HeaderItem - '总下载'    (L2115, T221, R2184, B259)
+   |    |    |    | ['HeaderItem13', '总下载', '总下载HeaderItem', '总下载0', '总下载1']
+   |    |    |    | child_window(title="总下载", control_type="HeaderItem")
+   |    |    |    |    | 
+   |    |    |    |    | Static - '总下载'    (L2131, T231, R2167, B248)
+   |    |    |    |    | ['总下载Static', 'Static30', '总下载2', '总下载Static0', '总下载Static1']
+   |    |    |    |    | child_window(title="总下载", control_type="Text")
+   |    |    |    |    | 
+   |    |    |    |    | Thumb - ''    (L2115, T221, R2123, B259)
+   |    |    |    |    | ['Thumb25', '总上传Thumb2']
+   |    |    |    |    | child_window(auto_id="PART_LeftHeaderGripper", control_type="Thumb")
+   |    |    |    |    | 
+   |    |    |    |    | Thumb - ''    (L2176, T221, R2184, B259)
+   |    |    |    |    | ['总下载Thumb', 'Thumb26']
+   |    |    |    |    | child_window(auto_id="PART_RightHeaderGripper", control_type="Thumb")
+   |    |    | 
+   |    |    | DataItem - 'ServiceLib.Models.ProfileItemModel'    (L985, T259, R2184, B281)
+   |    |    | ['ServiceLib.Models.ProfileItemModel', 'DataItem', 'ServiceLib.Models.ProfileItemModelDataItem']
+   |    |    | child_window(title="ServiceLib.Models.ProfileItemModel", control_type="DataItem")
+   |    |    |    | 
+   |    |    |    | HeaderItem - ' 1'    (L985, T259, R1025, B281)
+   |    |    |    | ['HeaderItem14', ' 1HeaderItem', ' 1', ' 10', ' 11']
+   |    |    |    | child_window(title=" 1", control_type="HeaderItem")
+   |    |    |    |    | 
+   |    |    |    |    | Static - ' 1'    (L985, T261, R996, B278)
+   |    |    |    |    | ['Static31', ' 1Static', ' 12']
+   |    |    |    |    | child_window(title=" 1", control_type="Text")
+   |    |    |    | 
+   |    |    |    | Custom - 'VMess'    (L1025, T259, R1109, B281)
+   |    |    |    | ['VMessCustom', 'VMess', 'Custom3', 'VMess0', 'VMess1']
+   |    |    |    | child_window(title="VMess", control_type="Custom")
+   |    |    |    |    | 
+   |    |    |    |    | Static - 'VMess'    (L1027, T261, R1106, B278)
+   |    |    |    |    | ['Static32', 'VMessStatic', 'VMess2']
+   |    |    |    |    | child_window(title="VMess", control_type="Text")
+   |    |    |    | 
+   |    |    |    | Custom - '美国 V2CROSS.COM'    (L1109, T259, R1291, B281)
+   |    |    |    | ['Custom4', '美国 V2CROSS.COMCustom', '美国 V2CROSS.COM', '美国 V2CROSS.COM0', '美国 V2CROSS.COM1']
+   |    |    |    | child_window(title="美国 V2CROSS.COM", control_type="Custom")
+   |    |    |    |    | 
+   |    |    |    |    | Static - '美国 V2CROSS.COM'    (L1111, T261, R1288, B278)
+   |    |    |    |    | ['美国 V2CROSS.COMStatic', 'Static33', '美国 V2CROSS.COM2']
+   |    |    |    |    | child_window(title="美国 V2CROSS.COM", control_type="Text")
+   |    |    |    | 
+   |    |    |    | Custom - '216.221.214.50'    (L1291, T259, R1442, B281)
+   |    |    |    | ['Custom5', '216.221.214.50', '216.221.214.50Custom', '216.221.214.500', '216.221.214.501']
+   |    |    |    | child_window(title="216.221.214.50", control_type="Custom")
+   |    |    |    |    | 
+   |    |    |    |    | Static - '216.221.214.50'    (L1293, T261, R1439, B278)
+   |    |    |    |    | ['216.221.214.502', 'Static34', '216.221.214.50Static']
+   |    |    |    |    | child_window(title="216.221.214.50", control_type="Text")
+   |    |    |    | 
+   |    |    |    | Custom - '443'    (L1442, T259, R1499, B281)
+   |    |    |    | ['443', '443Custom', 'Custom6', '4430', '4431']
+   |    |    |    | child_window(title="443", control_type="Custom")
+   |    |    |    |    | 
+   |    |    |    |    | Static - '443'    (L1444, T261, R1496, B278)
+   |    |    |    |    | ['4432', 'Static35', '443Static']
+   |    |    |    |    | child_window(title="443", control_type="Text")
+   |    |    |    | 
+   |    |    |    | Custom - 'ws'    (L1499, T259, R1580, B281)
+   |    |    |    | ['Custom7', 'wsCustom', 'ws', 'ws0', 'ws1']
+   |    |    |    | child_window(title="ws", control_type="Custom")
+   |    |    |    |    | 
+   |    |    |    |    | Static - 'ws'    (L1501, T261, R1577, B278)
+   |    |    |    |    | ['wsStatic', 'Static36', 'ws2']
+   |    |    |    |    | child_window(title="ws", control_type="Text")
+   |    |    |    | 
+   |    |    |    | Custom - 'tls'    (L1580, T259, R1633, B281)
+   |    |    |    | ['Custom8', 'tls', 'tlsCustom', 'tls0', 'tls1']
+   |    |    |    | child_window(title="tls", control_type="Custom")
+   |    |    |    |    | 
+   |    |    |    |    | Static - 'tls'    (L1582, T261, R1630, B278)
+   |    |    |    |    | ['Static37', 'tls2', 'tlsStatic', 'tlsStatic0', 'tlsStatic1']
+   |    |    |    |    | child_window(title="tls", control_type="Text")
+   |    |    |    | 
+   |    |    |    | Custom - '项: ServiceLib.Models.ProfileItemModel，列显示索引: 6'    (L1633, T259, R1714, B281)
+   |    |    |    | ['项: ServiceLib.Models.ProfileItemModel，列显示索引: 6', 'Custom9', '项: ServiceLib.Models.ProfileItemModel，列显示索引: 6Custom']
+   |    |    |    | child_window(title="项: ServiceLib.Models.ProfileItemModel，列显示索引: 6", control_type="Custom")
+   |    |    |    |    | 
+   |    |    |    |    | Static - ''    (L1635, T261, R1711, B278)
+   |    |    |    |    | ['Static38', 'tlsStatic2']
+   |    |    |    | 
+   |    |    |    | Custom - '项: ServiceLib.Models.ProfileItemModel，列显示索引: 7'    (L1714, T259, R1796, B281)
+   |    |    |    | ['项: ServiceLib.Models.ProfileItemModel，列显示索引: 7', '项: ServiceLib.Models.ProfileItemModel，列显示索引: 7Custom', 'Custom10']
+   |    |    |    | child_window(title="项: ServiceLib.Models.ProfileItemModel，列显示索引: 7", control_type="Custom")
+   |    |    |    |    | 
+   |    |    |    |    | Static - ''    (L0, T0, R0, B0)
+   |    |    |    |    | ['Static39']
+   |    |    |    | 
+   |    |    |    | Custom - '-1 '    (L1796, T259, R1884, B281)
+   |    |    |    | ['Custom11', '-1 ', '-1 Custom', '-1 0', '-1 1']
+   |    |    |    | child_window(title="-1 ", control_type="Custom")
+   |    |    |    |    | 
+   |    |    |    |    | Static - '-1 '    (L1865, T261, R1881, B278)
+   |    |    |    |    | ['-1 Static', 'Static40', '-1 2', '-1 Static0', '-1 Static1']
+   |    |    |    |    | child_window(title="-1 ", control_type="Text")
+   |    |    |    | 
+   |    |    |    | Custom - '项: ServiceLib.Models.ProfileItemModel，列显示索引: 9'    (L1884, T259, R1965, B281)
+   |    |    |    | ['项: ServiceLib.Models.ProfileItemModel，列显示索引: 9Custom', '项: ServiceLib.Models.ProfileItemModel，列显示索引: 9', 'Custom12']
+   |    |    |    | child_window(title="项: ServiceLib.Models.ProfileItemModel，列显示索引: 9", control_type="Custom")
+   |    |    |    |    | 
+   |    |    |    |    | Static - ''    (L1886, T261, R1962, B278)
+   |    |    |    |    | ['-1 Static2', 'Static41']
+   |    |    |    | 
+   |    |    |    | Custom - '项: ServiceLib.Models.ProfileItemModel，列显示索引: 10'    (L1965, T259, R2046, B281)
+   |    |    |    | ['项: ServiceLib.Models.ProfileItemModel，列显示索引: 10Custom', 'Custom13', '项: ServiceLib.Models.ProfileItemModel，列显示索引: 10']
+   |    |    |    | child_window(title="项: ServiceLib.Models.ProfileItemModel，列显示索引: 10", control_type="Custom")
+   |    |    |    |    | 
+   |    |    |    |    | Static - ''    (L1967, T261, R2043, B278)
+   |    |    |    |    | ['今日下载Static2', 'Static42']
+   |    |    |    | 
+   |    |    |    | Custom - '项: ServiceLib.Models.ProfileItemModel，列显示索引: 11'    (L2046, T259, R2115, B281)
+   |    |    |    | ['Custom14', '项: ServiceLib.Models.ProfileItemModel，列显示索引: 11Custom', '项: ServiceLib.Models.ProfileItemModel，列显示索引: 11']
+   |    |    |    | child_window(title="项: ServiceLib.Models.ProfileItemModel，列显示索引: 11", control_type="Custom")
+   |    |    |    |    | 
+   |    |    |    |    | Static - ''    (L2048, T261, R2112, B278)
+   |    |    |    |    | ['Static43', '总上传Static2']
+   |    |    |    | 
+   |    |    |    | Custom - '项: ServiceLib.Models.ProfileItemModel，列显示索引: 12'    (L2115, T259, R2184, B281)
+   |    |    |    | ['Custom15', '项: ServiceLib.Models.ProfileItemModel，列显示索引: 12', '项: ServiceLib.Models.ProfileItemModel，列显示索引: 12Custom']
+   |    |    |    | child_window(title="项: ServiceLib.Models.ProfileItemModel，列显示索引: 12", control_type="Custom")
+   |    |    |    |    | 
+   |    |    |    |    | Static - ''    (L2117, T261, R2181, B278)
+   |    |    |    |    | ['总下载Static2', 'Static44']
+   | 
+   | Thumb - ''    (L984, T447, R1868, B457)
+   | [' 1Thumb', 'Thumb27']
+   | 
+   | TabControl - ''    (L984, T457, R1868, B731)
+   | ['TabControl', ' 1TabControl']
+   | child_window(auto_id="tabMain1", control_type="Tab")
+   |    | 
+   |    | Custom - ''    (L985, T457, R1868, B731)
+   |    | [' 1Custom', 'Custom16']
+   |    |    | 
+   |    |    | ComboBox - ''    (L1005, T469, R1205, B495)
+   |    |    | ['ComboBoxblock', ' 1ComboBox', 'ComboBox3', 'ComboBoxdirect']
+   |    |    | child_window(auto_id="cmbMsgFilter", control_type="ComboBox")
+   |    |    |    | 
+   |    |    |    | Edit - ''    (L1005, T473, R1188, B490)
+   |    |    |    | [' 1Edit', 'Edit2', ' 1Edit0', ' 1Edit1']
+   |    |    |    | child_window(auto_id="PART_EditableTextBox", control_type="Edit")
+   |    |    | 
+   |    |    | Button - ''    (L1221, T470, R1245, B494)
+   |    |    | ['美国 V2CROSS.COMButton', 'Button9', '美国 V2CROSS.COMButton0', '美国 V2CROSS.COMButton1']
+   |    |    | child_window(auto_id="btnCopy", control_type="Button")
+   |    |    | 
+   |    |    | Button - ''    (L1261, T470, R1285, B494)
+   |    |    | ['美国 V2CROSS.COMButton2', 'Button10']
+   |    |    | child_window(auto_id="btnClear", control_type="Button")
+   |    |    | 
+   |    |    | Static - '自动刷新'    (L1301, T469, R1349, B494)
+   |    |    | ['自动刷新Static', 'Static45', '自动刷新']
+   |    |    | child_window(title="自动刷新", control_type="Text")
+   |    |    | 
+   |    |    | Button - ''    (L1365, T469, R1399, B495)
+   |    |    | ['Button11', '自动刷新Button']
+   |    |    | child_window(auto_id="togAutoRefresh", control_type="Button")
+   |    |    | 
+   |    |    | Static - '自动滚动到末尾'    (L1415, T469, R1499, B494)
+   |    |    | ['自动滚动到末尾', 'Static46', '自动滚动到末尾Static']
+   |    |    | child_window(title="自动滚动到末尾", control_type="Text")
+   |    |    | 
+   |    |    | Button - ''    (L1515, T469, R1549, B495)
+   |    |    | ['自动滚动到末尾Button', 'Button12', '自动滚动到末尾Button0', '自动滚动到末尾Button1']
+   |    |    | child_window(auto_id="togScrollToEnd", control_type="Button")
+   |    |    | 
+   |    |    | Edit - '初始化配置\r\n启动服务(2024/11/15 17:09:22)...\r\nD:\v2rayN-With-Core\guiConfigs\configSpeedtest.json\r\nXray 24.11.5 (Xray, Penetrates Everything.) afc7ec5 (go1.23.2 windows/amd64)\r\nA unified platform for anti-censorship.\r\n2024/11/15 17:09:22 [Info] infra/conf/serial: Reading config: &{Name:configSpeedtest.json Format:json}\r\n2024/11/15 17:09:22 [Warning] core: Xray 24.11.5 started\r\n2024/11/15 17:09:23 from 127.0.0.1:62184 accepted //speed.cloudflare.com:443 [http10829 -> proxy10829]\r\n2024/11/15 17:09:33 测试完成\r\n导出分享链接至剪贴板成功\r\n'    (L989, T503, R1864, B727)
+   |    |    | [' 1Edit2', 'Edit3']
+   |    |    | child_window(title="初始化配置\r\n启动服务(2024/11/15 17:09:22)...\r\nD:\v2rayN-With-Core\guiConfigs\configSpeedtest.json\r\nXray 24.11.5 (Xray, Penetrates Everything.) afc7ec5 (go1.23.2 windows/amd64)\r\nA unified platform for anti-censorship.\r\n2024/11/15 17:09:22 [Info] infra/conf/serial: Reading config: &{Name:configSpeedtest.json Format:json}\r\n2024/11/15 17:09:22 [Warning] core: Xray 24.11.5 started\r\n2024/11/15 17:09:23 from 127.0.0.1:62184 accepted //speed.cloudflare.com:443 [http10829 -> proxy10829]\r\n2024/11/15 17:09:33 测试完成\r\n导出分享链接至剪贴板成功\r\n", auto_id="txtMsg", control_type="Edit")
+   |    |    |    | 
+   |    |    |    | ScrollBar - ''    (L1847, T507, R1864, B723)
+   |    |    |    | ['速度(M/s)ScrollBar', 'ScrollBar', 'ScrollBar0', 'ScrollBar1']
+   |    |    |    | child_window(auto_id="VerticalScrollBar", control_type="ScrollBar")
+   |    |    |    |    | 
+   |    |    |    |    | Button - ''    (L1847, T507, R1864, B527)
+   |    |    |    |    | ['速度(M/s)Button', 'Button13']
+   |    |    |    |    | child_window(auto_id="PART_LineUpButton", control_type="Button")
+   |    |    |    |    | 
+   |    |    |    |    | Button - ''    (L1847, T706, R1864, B726)
+   |    |    |    |    | ['关闭Button3', 'Button14']
+   |    |    |    |    | child_window(auto_id="PART_LineDownButton", control_type="Button")
+   | 
+   | Custom - ''    (L1244, T201, R1608, B701)
+   | ['Custom17', '设置Custom']
+   |    | 
+   |    | Image - ''    (L1276, T233, R1576, B533)
+   |    | ['美国 V2CROSS.COMImage', 'Image']
+   |    | child_window(auto_id="imgQrcode", control_type="Image")
+   |    | 
+   |    | Edit - 'vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogIlx1N0Y4RVx1NTZGRCBWMkNST1NTLkNPTSIsDQogICJhZGQiOiAiMjE2LjIyMS4yMTQuNTAiLA0KICAicG9ydCI6ICI0NDMiLA0KICAiaWQiOiAiMDU2NDFjZjUtNThkMi00YmE0LWE5ZjEtYjNjZGEwYjFmYjFkIiwNCiAgImFpZCI6ICIwIiwNCiAgInNjeSI6ICJhdXRvIiwNCiAgIm5ldCI6ICJ3cyIsDQogICJ0eXBlIjogIm5vbmUiLA0KICAiaG9zdCI6ICIyMDIyNTg1YS04NmE3LTQyMzEtYjNhMC1lZWRhMTRmNzdmNGQuOGYxODIzN2MtOGU1Zi00ZmZiLWE0MzQtMWIyOTQ4Yzg3YmUzLmRkbnNmcmVlLmNvbSIsDQogICJwYXRoIjogIi9vYmRpaS5jZmQ6NDQzL2xpbmt3cyIsDQogICJ0bHMiOiAidGxzIiwNCiAgInNuaSI6ICIiLA0KICAiYWxwbiI6ICIiLA0KICAiZnAiOiAiIg0KfQ=='    (L1276, T541, R1576, B601)
+   |    | ['自动刷新Edit', 'Edit4']
+   |    | child_window(title="vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogIlx1N0Y4RVx1NTZGRCBWMkNST1NTLkNPTSIsDQogICJhZGQiOiAiMjE2LjIyMS4yMTQuNTAiLA0KICAicG9ydCI6ICI0NDMiLA0KICAiaWQiOiAiMDU2NDFjZjUtNThkMi00YmE0LWE5ZjEtYjNjZGEwYjFmYjFkIiwNCiAgImFpZCI6ICIwIiwNCiAgInNjeSI6ICJhdXRvIiwNCiAgIm5ldCI6ICJ3cyIsDQogICJ0eXBlIjogIm5vbmUiLA0KICAiaG9zdCI6ICIyMDIyNTg1YS04NmE3LTQyMzEtYjNhMC1lZWRhMTRmNzdmNGQuOGYxODIzN2MtOGU1Zi00ZmZiLWE0MzQtMWIyOTQ4Yzg3YmUzLmRkbnNmcmVlLmNvbSIsDQogICJwYXRoIjogIi9vYmRpaS5jZmQ6NDQzL2xpbmt3cyIsDQogICJ0bHMiOiAidGxzIiwNCiAgInNuaSI6ICIiLA0KICAiYWxwbiI6ICIiLA0KICAiZnAiOiAiIg0KfQ==", auto_id="txtContent", control_type="Edit")
+   |    |    | 
+   |    |    | ScrollBar - ''    (L1559, T545, R1576, B596)
+   |    |    | ['自动滚动到末尾ScrollBar', 'ScrollBar2']
+   |    |    | child_window(auto_id="VerticalScrollBar", control_type="ScrollBar")
+   |    |    |    | 
+   |    |    |    | Button - ''    (L1559, T545, R1576, B565)
+   |    |    |    | ['自动滚动到末尾Button2', 'Button15']
+   |    |    |    | child_window(auto_id="PART_LineUpButton", control_type="Button")
+   |    |    |    | 
+   |    |    |    | Button - ''    (L0, T0, R0, B0)
+   |    |    |    | ['Button16']
+   |    |    |    | child_window(auto_id="PageUp", control_type="Button")
+   |    |    |    | 
+   |    |    |    | Button - ''    (L1559, T570, R1576, B579)
+   |    |    |    | ['自动滚动到末尾Button3', 'Button17']
+   |    |    |    | child_window(auto_id="PageDown", control_type="Button")
+   |    |    |    | 
+   |    |    |    | Thumb - ''    (L1559, T562, R1576, B570)
+   |    |    |    | ['自动滚动到末尾Thumb', 'Thumb28']
+   |    |    |    | 
+   |    |    |    | Button - ''    (L1559, T579, R1576, B599)
+   |    |    |    | ['自动滚动到末尾Button4', 'Button18']
+   |    |    |    | child_window(auto_id="PART_LineDownButton", control_type="Button")
+   |    | 
+   |    | Button - '关闭'    (L1468, T623, R1568, B655)
+   |    | ['Button19', '关闭Button4', '关闭3']
+   |    | child_window(title="关闭", control_type="Button")
+   |    |    | 
+   |    |    | Static - '关闭'    (L1506, T630, R1530, B647)
+   |    |    | ['关闭Static2', 'Static47', '关闭4']
+   |    |    | child_window(title="关闭", control_type="Text")

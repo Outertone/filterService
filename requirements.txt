@@ -1,0 +1,4 @@
+pywinauto
+pyperclip
+requests
+beautifulsoup4
